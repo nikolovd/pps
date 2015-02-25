@@ -17,3 +17,10 @@
 		t = 0:?:400
 		y = 0:?:210
 		slope = (.01)*(70-y) ;
+		
+		
+		% Example
+		x = linspace(-2*pi,2*pi,40);
+		y = linspace(0,4*pi,40);
+		[X,Y] = meshgrid(x,y);
+		Z = sin(X);
