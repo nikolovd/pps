@@ -1,0 +1,24 @@
+
+function ret = hw(b)
+	array = zeros(100);
+	y = 0;
+	x = 0;
+
+	for k = 1:100
+
+		for j = 1:100
+
+			if 0 <= y && y <= x
+				array(k,j) = y*(1 - b*x); 
+			elseif x <= y && y <= 1
+				array(k,j) = x*(1 - b*y);
+			end
+			x += 0.01;
+	
+		end
+
+		y += 0.01;	
+		x = 0;
+	end
+	ret = array;
+end
