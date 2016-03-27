@@ -1,0 +1,4 @@
+clear all clc
+t=1:3:2^17
+y(t)=3t-1/2t
+plot(t,y(t))
