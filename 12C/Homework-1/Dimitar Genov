@@ -1,0 +1,9 @@
+clear all; clc
+t = 0:1:2^12;
+y = 1./nthroot(t,3)+2.*(t-10);
+plot(t, y)
+xlabel('t')
+ylabel('f(t)')
+title('Homework')
+legend('Data')
+grid on
