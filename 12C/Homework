@@ -1,0 +1,9 @@
+clear
+my_number = 22
+t = 0.01:0.01:my_number;
+for i = t
+  f(end+1) = (1 / (nthroot(i, 3)))+(2*(i-10));
+end
+plot(t,f)
+title('Номер 22')
+legend('Графика на f(t)')
