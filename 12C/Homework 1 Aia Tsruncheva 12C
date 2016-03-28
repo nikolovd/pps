@@ -1,0 +1,10 @@
+clear all; clc
+c = int16(40);
+t = 0:1:2^c;
+y =(1./(t.^1./3))+2*(t-10);
+plot(y);
+title('Function y(t)');
+legend('y(t)');
+grid on;
+xlabel('t');
+ylabel('y');
