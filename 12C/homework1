@@ -6,3 +6,4 @@
 +ylabel('f(t)')
 +legend('Data')
 +grid on
+
