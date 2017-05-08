@@ -4,7 +4,7 @@ A1=sum(A);
 A2=round(A);
 A3=sum(A2);
 B=[(15-7)*rand(1)*10, (15-7)*rand(1)*60]
-disp(sum(A3(1)))
+D = max(C,[ ],2)
 C=A3(120:130)
 E=det(A)
 Z=eye(1000)
