@@ -1,0 +1,7 @@
+clear all; clc;
+t=1:50:2^13;
+y= 3.*t.^2-1/2.*t;
+ plot(t,y);
+ xlabel('t');
+ ylabel('f от t');
+legend('Резултатче')
