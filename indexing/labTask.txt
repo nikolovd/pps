@@ -1,0 +1,8 @@
+Упражнение ППС - индексиране
+
+Създайте функция 'myFunc' в Matlab/Octave, която приема за входни данни матрица 'matrix' и умножител 'multiplier'.
+Функцията 'myFunc' трябва да връща предпоследната колона от входната матрица 'matrix' умножена по 'multiplier'.
+
+ Помощ
+ 1. function [] = function_name(input_arg1, input_arg2)
+ 2. Името файла трябва да съвпада с function_name
