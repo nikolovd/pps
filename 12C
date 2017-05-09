@@ -1,0 +1,10 @@
+clear all; clc;
+t=0:100:2^20;
+y=1./ nthroot(t,3)+ 2.*(t-10);
+plot(t,y,'m')
+grid on
+legend('y(t)=1/ t^1^/^3+ 2*(t-10)')
+ylabel('y')
+xlabel('t')
+title('Homework 1')
+
