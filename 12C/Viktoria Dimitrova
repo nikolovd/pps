@@ -1,0 +1,9 @@
+clear all; clc
+t = 0:1:2^50;
+y = 1./nthroot(t, 3) + 2.*(t - 10);
+plot(t, y)
+title('Function y(t)')
+xlabel('t')
+ylabel('f(t)')
+legend('y(t)')
+grid on
